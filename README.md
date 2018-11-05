@@ -66,3 +66,16 @@ Steps:
     ```
     npm test
     ```
+17. add webpack dependency
+    ```
+    npm i --save-dev webpack
+    ```
+18. create webpack config file ```webpack.config.js```
+19. add webpack loader for babel:
+    ```npm i --save-dev babel-loader```
+20. css dependencies:
+    ```npm i --save-dev node-sass sass-loader style-loader css-loader```
+21. ```npm i --save-dev html-webpack-plugin```
+22. ```npm i --save-dev webpack-cli webpack-dev-server```
+
+npm i clean-webpack-plugin --save-dev
